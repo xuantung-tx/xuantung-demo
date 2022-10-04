@@ -1,0 +1,38 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.tung{
+  text-align: center;
+}
+
+.list{
+  margin: 300px;
+  border: 1px solid #000;
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.todos{
+  width: 300px;
+  margin: 10px;
+}
+.card-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card{
+  overflow: hidden;
+}
+span{
+  height: 10px;
+  padding: 0px 4px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
